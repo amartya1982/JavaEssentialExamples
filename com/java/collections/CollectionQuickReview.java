@@ -1,3 +1,5 @@
+package com.java.collections;
+
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;

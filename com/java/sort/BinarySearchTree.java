@@ -1,3 +1,5 @@
+package com.java.sort;
+
 import com.sun.source.tree.Tree;
 
 public class BinarySearchTree {

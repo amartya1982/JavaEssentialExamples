@@ -1,3 +1,5 @@
+package com.java.sort;
+
 public class mergeSort {
 
     // Main method to run the merge sort

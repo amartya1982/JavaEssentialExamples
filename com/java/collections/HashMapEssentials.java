@@ -1,6 +1,7 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+package com.java.collections;
+
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class HashMapEssentials {
 
@@ -38,5 +39,9 @@ public class HashMapEssentials {
         map.merge("Apple",5, (old, newVal) -> old+newVal);
 
         map.forEach((k,v) -> System.out.println("Updated key "+k+" and its value "+v));
-    }
+
+        System.out.println("------------------------------------------");
+        int[] arr = {1, 2, 3, 4, 5};
+        List<Integer> ar = Arrays.stream(arr).boxed().collect(Collectors.toList());
+        System.out.print(ar);    }
 }
