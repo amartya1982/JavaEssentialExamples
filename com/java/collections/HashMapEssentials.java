@@ -43,5 +43,12 @@ public class HashMapEssentials {
         System.out.println("------------------------------------------");
         int[] arr = {1, 2, 3, 4, 5};
         List<Integer> ar = Arrays.stream(arr).boxed().collect(Collectors.toList());
-        System.out.print(ar);    }
+        System.out.println(ar);
+        System.out.println("------------------------------------------");
+
+        int[] ar1 = {1, 2, 3, 4, 5,3,4,1,10};
+        Collections.sort(Arrays.stream(ar1).boxed().collect(Collectors.toList()));
+        System.out.println(Arrays.stream(ar1).boxed().collect(Collectors.toList()));
+
+    }
 }
