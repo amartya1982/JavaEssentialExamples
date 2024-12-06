@@ -52,7 +52,7 @@ public class URLShortner {
         String originalUrl1 = "https://example.com/long-url";
         String originalUrl2 = "https://anotherexample.com/some-page";
 
-        String OriginalURL3 = "https://youtube.com/shorts/HDFIfOPZ1ds?si=5xhvFkCChcjRJ-My"
+        String OriginalURL3 = "https://youtube.com/shorts/HDFIfOPZ1ds?si=5xhvFkCChcjRJ-My";
 
         // Shortening URLs
         String shortUrl1 = urlShortener.shortenURL(originalUrl1);
