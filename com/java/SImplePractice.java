@@ -70,8 +70,8 @@ public class SImplePractice {
                 resultMap.get(ketStr).add(input[i]);
             }
         }
-        List<List<String>> strListResult = new ArrayList<>();
-        resultMap.forEach((x,v) -> strListResult.add(v));
+      //  List<List<String>> strListResult = new ArrayList<>();
+       // resultMap.forEach((x,v) -> strListResult.add(v));
         return new ArrayList<>(resultMap.values());
     }
 }

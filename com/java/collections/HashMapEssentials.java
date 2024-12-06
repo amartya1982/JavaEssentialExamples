@@ -44,11 +44,24 @@ public class HashMapEssentials {
         int[] arr = {1, 2, 3, 4, 5};
         List<Integer> ar = Arrays.stream(arr).boxed().collect(Collectors.toList());
         System.out.println(ar);
-        System.out.println("------------------------------------------");
+        System.out.println("------------ STep Arr[] ------------------------------");
 
         int[] ar1 = {1, 2, 3, 4, 5,3,4,1,10};
         Collections.sort(Arrays.stream(ar1).boxed().collect(Collectors.toList()));
         System.out.println(Arrays.stream(ar1).boxed().collect(Collectors.toList()));
+
+        System.out.println("------------------------------------------");
+        HashMap<Integer,Integer> subMissionCal = new HashMap<>();
+        subMissionCal.put(1,3);
+        int applydate =1;
+        if(!subMissionCal.containsKey(applydate)){
+            subMissionCal.put(applydate,1);
+        }else{
+            int value = (int)subMissionCal.get(applydate);;
+            subMissionCal.put(applydate,value+1);
+        }
+
+        subMissionCal.forEach((k,v) -> System.out.println("key : "+k+"  value : "+v));
 
     }
 }
