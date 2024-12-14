@@ -28,7 +28,7 @@ public class DFS {
 
         // Start DFS from node 0
         System.out.println("DFS Traversal:");
-        dfsAlgorithm(graph, 1, visited);
+        dfsAlgorithm(graph, 0, visited);
 
     }
 
