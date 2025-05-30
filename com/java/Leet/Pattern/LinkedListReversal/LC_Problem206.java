@@ -1,4 +1,4 @@
-package com.java.Leet.Pattern.LinedListReversal;
+package com.java.Leet.Pattern.LinkedListReversal;
 
   class ListNode {
       int val;
